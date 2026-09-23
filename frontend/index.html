@@ -3,19 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ember and sole</title>
-    <style>
-        h1 {
-            color: blue;
-            font-weight: bold;
-            font-size: 36px;
-            border: 2px solid black;
-        }
-    </style>
+    <title>ember and</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <h2>Welcome to My Website</h2>
-    <p>This is a simple HTML page.</p>
+    <header>
+        <h2>Ember & Sole</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero"  >
+            <h1>Welcome to My Website</h1>
+            <p>This is a simple hero section.</p>
+        </section>
+        <section id="featured-items">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <article>
+                    <img src="assets/images/messi.png" alt="Nike Air Max 270" width="400" height="400">
+                    <h3>Nike Air Max 270</h3>
+                    <p class="price">₦85,000</p>
+                    <button type="button">View</button>
+                    <button type="button">Add to Cart</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>

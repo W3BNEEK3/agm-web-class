@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+   --color-ink: rgb(227, 236, 227);
+   --color-ember: #F05E23;
+   --color-bone: ;
+}
